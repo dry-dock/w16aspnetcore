@@ -3,7 +3,7 @@ FROM drydock/w16dotnetcore:master
 
 # set up environment
 ENV ASPNETCORE_URLS http://+:80
-ENV ASPNETCORE_PKG_VERSION 2.0.6
+ENV ASPNETCORE_PKG_VERSION 2.0.7
 
 # Install gulp and bower
 RUN npm install -g gulp bower;
